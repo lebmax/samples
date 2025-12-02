@@ -4,6 +4,7 @@ public class Anagrams {
 		assert isAnagram("anagram", "nagaram");
 		assert !isAnagram("rat", "car");
 		assert !isAnagram("ttttt", "car");
+		assert !isAnagram("t", "car");
 	}
 	
 	private static boolean isAnagram(String s, String t) {
