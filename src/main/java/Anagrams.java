@@ -3,7 +3,7 @@ public class Anagrams {
 	public static void main(String[] args) throws Exception {
 		assert isAnagram("anagram", "nagaram");
 		assert !isAnagram("rat", "car");
-		assert !isAnagram("rayyy", "cad");
+		assert !isAnagram("yyyyyy", "car");
 	}
 	
 	private static boolean isAnagram(String s, String t) {
