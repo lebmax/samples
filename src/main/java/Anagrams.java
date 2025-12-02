@@ -25,6 +25,6 @@ public class Anagrams {
 				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 }
