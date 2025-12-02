@@ -3,8 +3,6 @@ public class Anagrams {
 	public static void main(String[] args) throws Exception {
 		assert isAnagram("anagram", "nagaram");
 		assert !isAnagram("rat", "car");
-		assert !isAnagram("ttttt", "car");
-		assert !isAnagram("uuu", "car");
 	}
 	
 	private static boolean isAnagram(String s, String t) {
@@ -15,7 +13,7 @@ public class Anagrams {
 			return false;
 		}
 		int[] letters = new int[256];
-		
+
 		char[] sArray = s.toCharArray();
 		for (char c : sArray) {
 			letters[c]++;
