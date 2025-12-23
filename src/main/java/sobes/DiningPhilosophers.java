@@ -14,7 +14,7 @@ public class DiningPhilosophers {
 						   Runnable pickRightFork,
 						   Runnable eat,
 						   Runnable putLeftFork,
-						   Runnable putRightFork) throws InterruptedException {
+						   Runnable putRightFork) {
 		int left = philosopher;
 		int right = (philosopher + 1) % 5;
 		
